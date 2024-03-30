@@ -3,7 +3,7 @@ script.Enabled = toggle
 h = Instance.new("Message", game.Workspace)
 h.Text = "Success"
 wait(1)
-h:Destroy
+h:Destroy()
 end
 
 function destroy(script)
@@ -11,7 +11,7 @@ script:Destroy()
 h = Instance.new("Message", game.Workspace)
 h.Text = "Destroyed!"
 wait(1)
-h:Destroy
+h:Destroy()
 end
 
 function printExplorer()
